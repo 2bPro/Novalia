@@ -1,34 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>Novalia</title>
-
-	<link href="css/login.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Create and Test a News Scraping Bot Module in Python</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
-<body>
-	<div class="container">
-		<!-- Logo -->
-		<div id="logo"><img src="assets/logo.png" /></div>
-		
-		<!-- Login Form -->
-			<form action="home.html">
-				<input type="email" id="email" name="emailaddress" placeholder="Email">
-				<input type="password" id="pass" name="password" placeholder="Password">
-
-				<input type="checkbox" id="checkbox"> 
-				<label for="checkbox" class="input-label"><span><span></span></span>Remember me</label>
-
-			        <input type="submit" value="Submit">
-
-				<label class="forgot">Forgotten Password?</label>	
-			</form>
-	</div>
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="how-to-create-and-test-a-news-scraping-bot-module-in-python">How to Create and Test a News Scraping Bot Module in Python</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This step by step tutorial describes the approaches required for the creation and testing of a news source scraper bot with the use of Python. The purpose of this module is to collect news data with the use of <strong>web scraping</strong> for further analysis and pattern discovery with the help of data science techniques such as natural language processing and machine learning. The focus of this tutorial will be solely around the automatic extraction of the data and its preparation for the analysis stage.</p>
+<h4 id="what-is-web-scraping-and-how-does-it-work">What is web scraping and how does it work</h4>
+<p>Web scraping is the process of automatic data extraction from websites with the use<br>
+of a scraper bot. The process starts with a GET request to the specified website followed by<br>
+the parsing of the HTML document received with the response. The type of data that can be extracted is represented by any element directly accessible from the HTML structure of the website. However, to be able to access and manipulate these elements, they first need to be transformed into Python objects having attributes such as text, href, style and other usual HTML tag attributes. This is done with the help of a Python library, beautifulsoup, one of the most powerful scraping tools.</p>
+<h4 id="what-are-news-sources">What are news sources</h4>
+<p>News sources are represented by websites that offer regular news articles in the areas<br>
+relevant for the DeepMiner company and its customers. These websites have distinct layouts and contents, all mirrored in the HTML structure. In the light of the previous section about how scrapers work, this means that every source will require a new scraper bot. This scraper bot will be applicable only to the source it was specifically coded for and pages within it that are consistent in the HTML structure.</p>
+<h4 id="step-1-investigating-the-source">Step 1: Investigating the source</h4>
+</div>
 </body>
+
 </html>
+
